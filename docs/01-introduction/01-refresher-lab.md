@@ -391,19 +391,19 @@ Help for the [VSCode editor](https://github.com/kodekloudhub/community-faq/blob/
 
         // your code for creating struct objects goes here
         // Note creating book *pointers* here on purpose
-        book1 := Book{
+        book1 := &Book{
             Title: "The Great Gatsby",
             Author: "F. Scott Fitzgerald",
             Pages: 180,
         }
 
-        book2 := Book{
+        book2 := &Book{
             Title: "To Kill a Mockingbird",
             Author: "Harper Lee",
             Pages: 281,
         }
 
-        book3 := Book{
+        book3 := &Book{
             Title: "Pride and Prejudice",
             Author: "Jane Austen",
             Pages: 279,
