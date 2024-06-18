@@ -502,7 +502,7 @@ Help for the [VSCode editor](https://github.com/kodekloudhub/community-faq/blob/
 
     We need to create a struct called Expense to store information about an individual expense, including the name of the `expense`, the `amount`, and the `date`.
 
-    We need to create a method called `Total` that calculates the total amount spent on expenses.
+    We need to create a function called `Total` that calculates the total amount spent on expenses.
 
     Also, we need to create a method called `getName` on Expense struct that returns the name of the Expense.
 
@@ -532,7 +532,7 @@ Help for the [VSCode editor](https://github.com/kodekloudhub/community-faq/blob/
         date string
     }
 
-    // Implement the Total method to calculate the total amount spent
+    // Implement the Total function to calculate the total amount spent
     // your code goes here
     // We can tell the signature of this function
     // by how it is called below
